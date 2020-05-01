@@ -15,7 +15,9 @@
   "author": "Daniel <d@b3log.org> (http://88250.b3log.org) & Vanessa <v@b3log.org> (http://vanessa.b3log.org)",
   "scripts": {
     "dev": "gulp watch",
-    "build": "gulp"
+    "build": "gulp",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "maintainers": [
     {
@@ -37,6 +39,8 @@
     "gulp-uglify": "^3.0.2"
   },
   "dependencies": {
-    "vditor": "^1.7.9"
-  }
+    "vditor": "^1.7.9",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
