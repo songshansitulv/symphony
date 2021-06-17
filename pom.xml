@@ -21,10 +21,10 @@
     <inceptionYear>2012</inceptionYear>
 
     <properties>
-        <latke.version>2.5.7</latke.version>
+        <latke.version>2.5.8</latke.version>
 
         <servlet.version>3.1.0</servlet.version>
-        <jetty.version>9.4.14.v20181114</jetty.version>
+        <jetty.version>9.4.39.v20210325</jetty.version>
         <slf4j.version>1.7.24</slf4j.version>
         <mysql-connector-java.version>8.0.16</mysql-connector-java.version>
         <jsoup.version>1.10.2</jsoup.version>
@@ -33,9 +33,9 @@
         <jodd.version>5.0.3</jodd.version>
         <emoji-java.version>4.0.0</emoji-java.version>
         <user-agent-utils.version>1.21</user-agent-utils.version>
-        <commons-codec.version>1.10</commons-codec.version>
+        <commons-codec.version>1.13</commons-codec.version>
         <es.version>2.3.1</es.version>
-        <guava.version>22.0</guava.version>
+        <guava.version>30.0-android</guava.version>
         <owasp.version>1.2.2</owasp.version>
         <snakeyaml.version>1.18</snakeyaml.version>
         <freemarker.version>2.3.28</freemarker.version>
